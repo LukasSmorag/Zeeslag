@@ -1,0 +1,12 @@
+package smorag.lukas.zeeslag.util;
+
+
+public interface Subject {
+	
+	public void registerObserver(FleetObserver O);
+	
+	public void removeObserver(FleetObserver O);
+	
+	public void notifyObserver();
+
+}
