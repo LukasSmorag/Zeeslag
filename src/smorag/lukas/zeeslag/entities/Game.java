@@ -18,8 +18,6 @@ public class Game {
 			System.out.println("************************************");
 			System.out.println("*         OPEN-ZEESLAG 2.0         *");
 			System.out.println("************************************");
-			System.out.println("-------------By LukiSoft------------");
-			System.out.println("extra tekst");
 
 			Board playerBoard = new Board();
 			Board computerBoard = new Board();
