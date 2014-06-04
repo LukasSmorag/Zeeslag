@@ -6,7 +6,7 @@ import java.util.List;
 import smorag.lukas.zeeslag.util.Subject;
 import smorag.lukas.zeeslag.util.FleetObserver;
 
-public class Fleet implements Subject{
+public class Fleet implements Subject {
 	
 	private List <Boat> fleet;
 	private List <FleetObserver> observers;

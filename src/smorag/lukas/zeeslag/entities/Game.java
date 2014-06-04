@@ -59,7 +59,6 @@ public class Game {
 				beurt = true;
 			}
 		}
-		
 		//slot
 		System.out.println("Het spel is afgelopen");
 		if (!beurt) {
@@ -68,5 +67,6 @@ public class Game {
 			System.out.println("De computer heeft gewonnen");
 		}
 	}	
+
 }
 
