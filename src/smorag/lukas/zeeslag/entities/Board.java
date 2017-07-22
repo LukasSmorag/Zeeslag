@@ -14,10 +14,10 @@ public class Board {
 	private Field[][] board;
 	private int size;
 	private GamePlan gamePlan = new GamePlan();
-	private static final String CURRENTSITUATION = "Geef de coordinaten van een boot met lengte %d";
-	private static final String PLACEERROR = "Boot kruist andere boot of valt buiten het veld! Geef opnieuw in.";
-	private static final String ASKBEGINFIELD = "Geef het beginveld van de boot";
-	private static final String ASKDIRECTION = "Geef de richting van de boot (0 = horizontaal, 1 = vertikaal)";
+	private static final String CURRENTSITUATION = 		"Geef de coordinaten van een boot met lengte %d";
+	private static final String PLACEERROR = 			"Boot kruist andere boot of valt buiten het veld! Geef opnieuw in.";
+	private static final String ASKBEGINFIELD = 		"Geef het beginveld van de boot";
+	private static final String ASKDIRECTION = 			"Geef de richting van de boot (0 = horizontaal, 1 = vertikaal)";
 	private static final String CURRENTBOARDSITUATION = "Huidige toestand van uw bord:";
 
 	public Board() {
@@ -68,7 +68,7 @@ public class Board {
 	}
 
 	/*
-	 * setKwaliteit bepaalt de gok-kwaliteit per veld, per vloot. Per veld word
+	 * setKwaliteit bepaalt de gok-kwaliteit per veld, per vloot. Per veld wordt
 	 * berekend op hoeveel manieren een boot gezet kan worden.
 	 */
 
