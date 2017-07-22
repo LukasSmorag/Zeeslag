@@ -91,17 +91,5 @@ public class Fleet implements Subject {
 			System.out.println(sunken.toString());	
 		}
 	}
-
-	@Override
-	public void registerObserver(util.FleetObserver O) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void removeObserver(util.FleetObserver O) {
-		// TODO Auto-generated method stub
-		
-	}
 	
 }
