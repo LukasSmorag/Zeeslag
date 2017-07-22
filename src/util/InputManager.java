@@ -1,4 +1,4 @@
-package smorag.lukas.zeeslag.util;
+package util;
 import java.util.Scanner;
 
 public class InputManager {

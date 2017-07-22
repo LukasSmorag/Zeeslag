@@ -1,10 +1,12 @@
-package smorag.lukas.zeeslag.entities;
+package entities;
+import util.FleetObserver;
 
 import Behavior.ComputerPlayerMove;
 import Behavior.UserPlayerMove;
 import Exceptions.IllegalPlayerTypeException;
-import smorag.lukas.zeeslag.util.FleetObserver;
-import smorag.lukas.zeeslag.util.PlayBehavior;
+import util.PlayBehavior;
+import Behavior.*;
+import entities.Board;
 
 public class Player implements FleetObserver {
 	

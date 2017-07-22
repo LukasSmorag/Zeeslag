@@ -1,6 +1,6 @@
-package smorag.lukas.zeeslag.entities;
+package entities;
 
-import smorag.lukas.zeeslag.util.InputManager;
+import util.InputManager;
 
 public class Game {
 	

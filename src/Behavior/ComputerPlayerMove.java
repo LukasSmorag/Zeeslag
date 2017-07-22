@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import smorag.lukas.zeeslag.entities.Board;
-import smorag.lukas.zeeslag.entities.Boat;
-import smorag.lukas.zeeslag.entities.Field;
-import smorag.lukas.zeeslag.entities.Fleet;
-import smorag.lukas.zeeslag.util.PlayBehavior;
+import util.PlayBehavior;
+import entities.*;
+
 
 public class ComputerPlayerMove implements PlayBehavior {
 	

@@ -1,13 +1,13 @@
-package smorag.lukas.zeeslag.entities;
+package entities;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
 import Exceptions.IllegalDirectionException;
-import smorag.lukas.zeeslag.util.Directions;
-import smorag.lukas.zeeslag.util.GamePlan;
-import smorag.lukas.zeeslag.util.InputManager;
-import smorag.lukas.zeeslag.util.Point;
+import util.Directions;
+import util.GamePlan;
+import util.InputManager;
+import util.Point;
 
 public class Board {
 

@@ -1,4 +1,4 @@
-package smorag.lukas.zeeslag.util;
+package util;
 
 public enum Directions {
 	UP,DOWN,LEFT,RIGHT

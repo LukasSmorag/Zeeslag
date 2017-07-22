@@ -1,4 +1,4 @@
-package smorag.lukas.zeeslag.util;
+package util;
 public class Point {
 	
 		private int x;

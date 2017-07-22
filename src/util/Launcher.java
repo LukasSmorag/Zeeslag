@@ -1,5 +1,5 @@
-package smorag.lukas.zeeslag.util;
-import smorag.lukas.zeeslag.entities.Game;
+package util;
+import entities.Game;
 
 public class Launcher {
 	

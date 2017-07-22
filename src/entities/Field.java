@@ -1,4 +1,4 @@
-package smorag.lukas.zeeslag.entities;
+package entities;
 
 public class Field implements Comparable <Field> {
 	

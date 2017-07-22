@@ -1,10 +1,10 @@
-package smorag.lukas.zeeslag.entities;
+package entities;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import smorag.lukas.zeeslag.util.Subject;
-import smorag.lukas.zeeslag.util.FleetObserver;
+import util.Subject;
+import util.FleetObserver;
 
 public class Fleet implements Subject {
 	
@@ -90,6 +90,18 @@ public class Fleet implements Subject {
 			System.out.println(SUNKEN);
 			System.out.println(sunken.toString());	
 		}
+	}
+
+	@Override
+	public void registerObserver(util.FleetObserver O) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeObserver(util.FleetObserver O) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

@@ -1,10 +1,10 @@
 package Behavior;
 
-import smorag.lukas.zeeslag.entities.Board;
-import smorag.lukas.zeeslag.entities.Fleet;
-import smorag.lukas.zeeslag.util.InputManager;
-import smorag.lukas.zeeslag.util.PlayBehavior;
-import smorag.lukas.zeeslag.util.Point;
+import entities.Board;
+import entities.Fleet;
+import util.InputManager;
+import util.PlayBehavior;
+import util.Point;
 
 public class UserPlayerMove implements PlayBehavior {
 	
